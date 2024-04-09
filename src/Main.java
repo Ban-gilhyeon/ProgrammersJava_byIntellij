@@ -29,6 +29,17 @@ public class Main {
         //System.out.println(solutionSumNothingNum.solution(arr));
 
         SolutionCollatz collatz = new SolutionCollatz();
-        System.out.println(collatz.solution(626331));
+        //System.out.println(collatz.solution(626331));
+
+        //int division = 5;
+        //int temp[] ={10,5,7,2};
+        SolutionDiv div = new SolutionDiv();
+        //System.out.println(div.solution(temp,division));
+        String num = "01033457681";
+        SolutionHideNum hideNum = new SolutionHideNum();
+        //System.out.println(hideNum.solution(num));
+
+        SolutionMinDelete minDelete = new SolutionMinDelete();
+        System.out.println(minDelete.solution(arr));
     }
 }
