@@ -1,5 +1,7 @@
 import problems.*;
 
+import java.sql.SQLOutput;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class Main {
         SolutionFindKim solutionFindKim =  new SolutionFindKim();
         //System.out.println(solutionFindKim.solution(seoul));
 
-        int [] arr= {9,1,9,2,0};
+        int [] arr= {9,1,9,2,12};
         SolutionSumNothingNum solutionSumNothingNum = new SolutionSumNothingNum();
         //System.out.println(solutionSumNothingNum.solution(arr));
 
@@ -39,7 +41,15 @@ public class Main {
         SolutionHideNum hideNum = new SolutionHideNum();
         //System.out.println(hideNum.solution(num));
 
+        int arr2[] = {10};
         SolutionMinDelete minDelete = new SolutionMinDelete();
-        System.out.println(minDelete.solution(arr));
+        System.out.println(minDelete.solution2(arr2));
+
+        String s2 = "qwer";
+        SolutionMidChar mid = new SolutionMidChar();
+        //System.out.println(mid.solution(s2));
+
+        SolutionWm wn = new SolutionWm();
+        //System.out.println(wn.solution(6));
     }
 }
