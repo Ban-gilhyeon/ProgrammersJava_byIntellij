@@ -1,8 +1,5 @@
 import problems.*;
 
-import java.sql.SQLOutput;
-
-
 public class Main {
     public static void main(String[] args) {
         String s = "pPoooyY";
@@ -51,5 +48,11 @@ public class Main {
 
         SolutionWm wn = new SolutionWm();
         //System.out.println(wn.solution(6));
+
+        SolutionRefeatWord rw = new SolutionRefeatWord();
+        //System.out.println(rw.solution("hello",3));
+
+        SolutionAnt ant = new SolutionAnt();
+        //System.out.println(ant.solution(24));
     }
 }
