@@ -54,5 +54,27 @@ public class Main {
 
         SolutionAnt ant = new SolutionAnt();
         //System.out.println(ant.solution(24));
+
+        int nums[] = {3,3,3,2,2,4};
+        SolutionPhoneKetmon phoneKetmon = new SolutionPhoneKetmon();
+        //System.out.println(phoneKetmon.solution(nums));
+
+        String phone_book[] = {"3345, 7681, 010, "};
+        SolutionPhoneNumsList phoneNumsList = new SolutionPhoneNumsList();
+        //System.out.println(phoneNumsList.solution2(phone_book));
+
+        String com []={	"stanko", "ana", "mislav"};
+        String parti[] = {"mislav", "stanko", "mislav", "ana"};
+        SolutionNotCompletion nc = new SolutionNotCompletion();
+        //System.out.println(nc.solution2(parti,com));
+
+        String [][]clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+        SolutionClothes sc = new SolutionClothes();
+        //System.out.println(sc.solution(clothes));
+
+        String [] genres = {"classic", "pop", "classic", "classic", "pop"};
+        int [] plays = {500, 600, 150, 800, 2500};
+        SolutionBestAlbum ba = new SolutionBestAlbum();
+        System.out.println(ba.solution2(genres, plays));
     }
 }
