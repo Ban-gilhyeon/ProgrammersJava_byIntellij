@@ -1,5 +1,4 @@
 import problems.*;
-
 public class Main {
     public static void main(String[] args) {
         String s = "pPoooyY";
@@ -75,6 +74,29 @@ public class Main {
         String [] genres = {"classic", "pop", "classic", "classic", "pop"};
         int [] plays = {500, 600, 150, 800, 2500};
         SolutionBestAlbum ba = new SolutionBestAlbum();
-        System.out.println(ba.solution2(genres, plays));
+        //System.out.println(ba.solution2(genres, plays));
+
+       /*int [][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        int [] array ={1, 5, 2, 6, 3, 7, 4};
+        SolutionKNum kNum = new SolutionKNum();
+        System.out.println(kNum.solution(array, commands));*/
+
+        int temp [] = {3, 30, 34, 5, 9};
+        SolutionMaxNum maxNum = new SolutionMaxNum();
+        //System.out.println(maxNum.solution(temp));
+
+        int citatiotn [] = {3, 5, 11, 6, 1, 5, 3, 3, 1, 41};
+        SolutionHindex hIdx = new SolutionHindex();
+        //System.out.println(hIdx.solution(citatiotn));
+
+        int numbers [] = {4,1,2,1};
+        int target = 2;
+        SolutionTargetNum targetNum = new SolutionTargetNum();
+        // System.out.println(targetNum.solution(numbers, target));
+        //System.out.println(targetNum.solution(numbers,target));
+
+        int maps [][] ={{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1}};
+        SolutionRorgame rorgame = new SolutionRorgame();
+        System.out.println(rorgame.solution(maps));
     }
 }
