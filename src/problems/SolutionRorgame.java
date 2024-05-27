@@ -1,22 +1,22 @@
 package problems;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
-
 public class SolutionRorgame {
     int [][] maps;
     int [][] visit;
 
     //2. 이동이 가능한 곳으로 이동
     public boolean check(int y, int x){
+        //양 벽일 때
         if(y < 0 || y > maps.length - 1 || x < 0 || x > maps[0].length - 1 ){
             return false;
         }
+        //maps에서 벽일 때
         if(maps[y][x] == 0){
             return false;
         }
+        //길일 때만 true
         if(visit[y][x] == 1) return false;
         return true;
     }
@@ -36,12 +36,14 @@ public class SolutionRorgame {
             int cy = now.peek()[0];
             int cc = qc.peek();
             now.remove();
+            qc.remove();
+
             if(visit[cy][cx] == 1) continue;
             visit[cy][cx] = 1;
 
             //목적지 도착
             if(cy == maps.length -1  && cx == maps[0].length -1 ){
-                return qcnt = cc;
+                return cc;
             }
             //상
             if(check(cy -1, cx)) {

@@ -1,4 +1,5 @@
 import problems.*;
+import java.util.Collections;
 public class Main {
     public static void main(String[] args) {
         String s = "pPoooyY";
@@ -90,13 +91,20 @@ public class Main {
         //System.out.println(hIdx.solution(citatiotn));
 
         int numbers [] = {4,1,2,1};
-        int target = 2;
+        int target = 5;
         SolutionTargetNum targetNum = new SolutionTargetNum();
         // System.out.println(targetNum.solution(numbers, target));
-        //System.out.println(targetNum.solution(numbers,target));
+        //System.out.println(targetNum.solutionBfs(numbers,target));
 
         int maps [][] ={{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1}};
         SolutionRorgame rorgame = new SolutionRorgame();
-        System.out.println(rorgame.solution(maps));
+        //System.out.println(rorgame.solution(maps));
+
+        SolutionMaxMin maxMin = new SolutionMaxMin();
+        //System.out.println(maxMin.solution("1 2 -3 4"));
+
+        SolutionCheckBracket checkBracket = new SolutionCheckBracket();
+        System.out.println(checkBracket.solutionCnt("())(()"));
+
     }
 }
