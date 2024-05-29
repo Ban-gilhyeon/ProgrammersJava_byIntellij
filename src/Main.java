@@ -104,7 +104,16 @@ public class Main {
         //System.out.println(maxMin.solution("1 2 -3 4"));
 
         SolutionCheckBracket checkBracket = new SolutionCheckBracket();
-        System.out.println(checkBracket.solutionCnt("())(()"));
+        //System.out.println(checkBracket.solutionCnt("())(()"));
 
+        SolutionJadenCase jadenCase = new SolutionJadenCase();
+        //System.out.println(jadenCase.solution("hello world   wo "));
+
+        SolutionChangeBinary changeBinary = new SolutionChangeBinary();
+        //System.out.println(changeBinary.solution("110010101001"));
+        //changeBinary.solution("110010101001");
+
+        SolutionAsNum asNum = new SolutionAsNum();
+        System.out.println(asNum.solution(25));
     }
 }
