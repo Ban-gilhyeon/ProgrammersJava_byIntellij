@@ -117,6 +117,10 @@ public class Main {
         //System.out.println(asNum.solution(15));
 
         SolutionNextMax nextMax = new SolutionNextMax();
-        System.out.println(nextMax.solution2(78));
+        //System.out.println(nextMax.solution2(78));
+        
+        SolutionFibo fibo = new SolutionFibo();
+        System.out.println(fibo.solution(45));
+       // System.out.println(fibo.solution2(45));
     }
 }
