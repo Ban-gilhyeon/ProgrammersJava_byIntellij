@@ -120,7 +120,16 @@ public class Main {
         //System.out.println(nextMax.solution2(78));
         
         SolutionFibo fibo = new SolutionFibo();
-        System.out.println(fibo.solution(45));
+        //System.out.println(fibo.solution(45));
        // System.out.println(fibo.solution2(45));
+
+        SolutionRemovePairStr removePairStr = new SolutionRemovePairStr();
+        //System.out.println(removePairStr.solution("caaaac"));
+
+        SolutionCarpet carpet = new SolutionCarpet();
+        //System.out.println(carpet.solution(8,1));
+
+        SolutionJumpAndWorp jumpAndWorp = new SolutionJumpAndWorp();
+        System.out.println(jumpAndWorp.solution2(5000));
     }
 }
