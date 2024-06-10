@@ -130,6 +130,14 @@ public class Main {
         //System.out.println(carpet.solution(8,1));
 
         SolutionJumpAndWorp jumpAndWorp = new SolutionJumpAndWorp();
-        System.out.println(jumpAndWorp.solution2(5000));
+        //System.out.println(jumpAndWorp.solution2(5000));
+
+        int [] people = {65, 60, 36, 30};
+        int limit = 100;
+        SolutionEmergencyBoat emergencyBoat = new SolutionEmergencyBoat();
+        //System.out.println(emergencyBoat.solution(people, limit));
+        System.out.println(emergencyBoat.solution2(people,limit));
+        SolutionGymSuit gym = new SolutionGymSuit();
+        //System.out.println(gym.solution());
     }
 }
