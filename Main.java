@@ -23,7 +23,7 @@ public class Main {
         SolutionFindKim solutionFindKim =  new SolutionFindKim();
         //System.out.println(solutionFindKim.solution(seoul));
 
-        int [] arr= {9,1,9,2,12};
+        //int [] arr= {9,1,9,2,12};
         SolutionSumNothingNum solutionSumNothingNum = new SolutionSumNothingNum();
         //System.out.println(solutionSumNothingNum.solution(arr));
 
@@ -136,8 +136,21 @@ public class Main {
         int limit = 100;
         SolutionEmergencyBoat emergencyBoat = new SolutionEmergencyBoat();
         //System.out.println(emergencyBoat.solution(people, limit));
-        System.out.println(emergencyBoat.solution2(people,limit));
+       // System.out.println(emergencyBoat.solution2(people,limit));
         SolutionGymSuit gym = new SolutionGymSuit();
         //System.out.println(gym.solution());
+
+
+        //아직 못품
+        //int[] arr = {2,6,8,14};
+        SolutionLeastCommonMuliple leastCommonMuliple = new SolutionLeastCommonMuliple();
+        //System.out.println(leastCommonMuliple.solution(arr));
+
+        //Solution3Curse curse = new Solution3Curse();
+        //System.out.println(curse.solution(73));
+
+        SolutionReverseStrSort reverseStrSort = new SolutionReverseStrSort();
+        //System.out.println(reverseStrSort.solution("Zbcdefg"));
+
     }
 }

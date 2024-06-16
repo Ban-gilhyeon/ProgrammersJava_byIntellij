@@ -14,6 +14,7 @@ public class SolutionGymSuit {
             }
             else arr[i] = 0;
         }
+
         return answer;
     }
 }
