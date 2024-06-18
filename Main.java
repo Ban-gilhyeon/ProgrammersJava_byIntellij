@@ -152,9 +152,20 @@ public class Main {
         SolutionReverseStrSort reverseStrSort = new SolutionReverseStrSort();
         //System.out.println(reverseStrSort.solution("Zbcdefg"));
 
-        String []tc1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
-        String []tc = {"aya", "yee", "u", "maa", "wyeoo"};
-        SolutionBabbling babbling = new SolutionBabbling();
-        System.out.println(babbling.solution(tc1));
+       // String []tc1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
+        //String []tc = {"aya", "yee", "u", "maa", "wyeoo"};
+        //SolutionBabbling babbling = new SolutionBabbling();
+        //System.out.println(babbling.solution(tc1));
+
+        //SolutionNumOfDiv numOfDiv = new SolutionNumOfDiv();
+        //System.out.println(numOfDiv.solution(13,17));
+
+        /*int[][] tc1 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}};
+        int[][] tc2 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}};
+        SolutionSafeZone safeZone = new SolutionSafeZone();
+        System.out.println(safeZone.solution(tc2));*/
+
+        SolutionHanoiTop hanoiTop = new SolutionHanoiTop();
+        System.out.println(hanoiTop.solution(3));
     }
 }
