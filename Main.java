@@ -152,5 +152,9 @@ public class Main {
         SolutionReverseStrSort reverseStrSort = new SolutionReverseStrSort();
         //System.out.println(reverseStrSort.solution("Zbcdefg"));
 
+        String []tc1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
+        String []tc = {"aya", "yee", "u", "maa", "wyeoo"};
+        SolutionBabbling babbling = new SolutionBabbling();
+        System.out.println(babbling.solution(tc1));
     }
 }
