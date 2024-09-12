@@ -23,7 +23,7 @@ public class Main {
         SolutionFindKim solutionFindKim =  new SolutionFindKim();
         //System.out.println(solutionFindKim.solution(seoul));
 
-        int [] arr= {9,1,9,2,12};
+        //int [] arr= {9,1,9,2,12};
         SolutionSumNothingNum solutionSumNothingNum = new SolutionSumNothingNum();
         //System.out.println(solutionSumNothingNum.solution(arr));
 
@@ -130,6 +130,42 @@ public class Main {
         //System.out.println(carpet.solution(8,1));
 
         SolutionJumpAndWorp jumpAndWorp = new SolutionJumpAndWorp();
-        System.out.println(jumpAndWorp.solution2(5000));
+        //System.out.println(jumpAndWorp.solution2(5000));
+
+        int [] people = {65, 60, 36, 30};
+        int limit = 100;
+        SolutionEmergencyBoat emergencyBoat = new SolutionEmergencyBoat();
+        //System.out.println(emergencyBoat.solution(people, limit));
+       // System.out.println(emergencyBoat.solution2(people,limit));
+        SolutionGymSuit gym = new SolutionGymSuit();
+        //System.out.println(gym.solution());
+
+
+        //아직 못품
+        //int[] arr = {2,6,8,14};
+        SolutionLeastCommonMuliple leastCommonMuliple = new SolutionLeastCommonMuliple();
+        //System.out.println(leastCommonMuliple.solution(arr));
+
+        //Solution3Curse curse = new Solution3Curse();
+        //System.out.println(curse.solution(73));
+
+        SolutionReverseStrSort reverseStrSort = new SolutionReverseStrSort();
+        //System.out.println(reverseStrSort.solution("Zbcdefg"));
+
+       // String []tc1 = {"ayaye", "uuuma", "ye", "yemawoo", "ayaa"};
+        //String []tc = {"aya", "yee", "u", "maa", "wyeoo"};
+        //SolutionBabbling babbling = new SolutionBabbling();
+        //System.out.println(babbling.solution(tc1));
+
+        //SolutionNumOfDiv numOfDiv = new SolutionNumOfDiv();
+        //System.out.println(numOfDiv.solution(13,17));
+
+        /*int[][] tc1 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}};
+        int[][] tc2 = {{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}};
+        SolutionSafeZone safeZone = new SolutionSafeZone();
+        System.out.println(safeZone.solution(tc2));*/
+
+        SolutionHanoiTop hanoiTop = new SolutionHanoiTop();
+        System.out.println(hanoiTop.solution(3));
     }
 }

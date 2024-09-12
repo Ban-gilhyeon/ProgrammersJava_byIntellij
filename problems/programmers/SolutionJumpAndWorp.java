@@ -26,18 +26,17 @@ public class SolutionJumpAndWorp {
         }
         return battery;
     }
-    public int check(int n ){
-        Queue<Integer> queue = new LinkedList<Integer>();
-        for(int i = 2; i <= n; i++){
-            if(n % i == 0){
-                queue.add(i);
+    public int solution2(int n){
+        int ans = 0;
+        while(n != 0){
+            if(n % 2 == 0){
+                n = n / 2;
+            }
+            else{
+                n = n -1;
+                ans++;
             }
         }
-    }
-    public int solution2(int n){
-        int current = 0; int battery = 0;
-        int dis = 0;
-
-
+        return ans;
     }
 }
