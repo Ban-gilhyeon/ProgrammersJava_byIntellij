@@ -1,5 +1,5 @@
-import problems.*;
-import java.util.Collections;
+import problems.programmers.*;
+
 public class Main {
     public static void main(String[] args) {
         String s = "pPoooyY";
