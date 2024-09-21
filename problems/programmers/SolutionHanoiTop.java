@@ -1,4 +1,4 @@
-package problems;
+package problems.programmers;
 import java.util.ArrayList;
 import java.util.List;
 //솔직히 잘 모르겠다..

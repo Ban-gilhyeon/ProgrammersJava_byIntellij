@@ -1,4 +1,4 @@
-package problems;
+package problems.programmers;
 
 public class SolutionNumOfDiv {
     public int solution(int left, int right){

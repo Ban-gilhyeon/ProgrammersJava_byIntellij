@@ -1,4 +1,4 @@
-package problems;
+package problems.programmers;
 
 public class Solution3Curse {
     public int solution(int n) {

@@ -1,4 +1,4 @@
-package problems;
+package problems.programmers;
 
 public class SolutionGymSuit {
     public int solution(int n, int[] lost, int[] reserve) {
